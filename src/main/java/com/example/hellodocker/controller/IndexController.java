@@ -12,6 +12,11 @@ public class IndexController {
     public String index() {
         return "hello docker!";
     }
+
+    @RequestMapping(value = "/test")
+    public String test() {
+        return "test hello docker!";
+    }
 }
 
 
