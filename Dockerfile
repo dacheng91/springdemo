@@ -8,4 +8,4 @@ RUN echo $JAR_FILE
 ADD target/${JAR_FILE} /app.jar
 EXPOSE 8080
 # 执行启动命令
-ENTRYPOINT ["java","-Xms100m -Xmx100m","-jar","app.jar"]
+ENTRYPOINT ["java","-jar","app.jar"]
