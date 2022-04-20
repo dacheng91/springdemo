@@ -13,9 +13,24 @@ public class IndexController {
         return "hello docker!";
     }
 
-    @RequestMapping(value = "/test")
-    public String test() {
-        return "test hello docker!";
+    @RequestMapping(value = "/course/query/list/aaa")
+    public String course() {
+        return "course query list!";
+    }
+
+    @RequestMapping(value = "/book/query/list/aaa")
+    public String book() {
+        return "book query list!";
+    }
+
+    @RequestMapping(value = "/product/query/list/aaa")
+    public String product() {
+        return "product query list!";
+    }
+
+    @RequestMapping(value = "/user/query/list/aaa")
+    public String user() {
+        return "user query list!";
     }
 }
 
